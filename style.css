@@ -1,22 +1,29 @@
 body{
     background-color:rgb(253, 251, 251);
 }
+h1{
+    text-align: center;
+    margin:15px;
+    color:#50c57d;
+    font-size:38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 #cabecalho{
     top: 0;
     background-color:lightslategray;
-    padding: 20px;
     border:2px solid #1fbb2c;
     width: 500px;
-    position:absolute;
-
-    
+    position:fixed;
+    z-index:1;
+    left:380px;
 }
 #section-header{
     border:2px solid #1fbb2c;
 }
 #minha_foto{
-    border: 5px solid rgb(5, 59, 238);
-    margin-top:140px;
+    border: 5px solid rgb(12, 75, 94);
+    margin-top: 121px;
+    width: 318px;
 }
 #section-main{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -34,9 +41,18 @@ footer{
     position: absolute;
     top:130px;
     left:350px;
+    background-color:rgb(12, 75, 94);
+    color: antiquewhite;
+    font-size: 18px;
 }
 #ul-one{
     position: absolute;
     top:130px;
-    left:750px;
+    left:806px;
+    background-color: rgb(12, 75, 94);
+    color: antiquewhite;
+    font-size: 18px;
+}
+h2{
+    color:#50c57d;
 }
